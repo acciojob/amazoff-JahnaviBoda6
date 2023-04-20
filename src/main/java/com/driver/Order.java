@@ -18,12 +18,10 @@ public class Order {
         return id;
     }
 
+    public int getDeliveryTime() {return deliveryTime;}
+
     public void setId(String id) {
         this.id = id;
-    }
-
-    public int getDeliveryTime() {
-        return deliveryTime;
     }
 
     public void setDeliveryTime(int deliveryTime) {
